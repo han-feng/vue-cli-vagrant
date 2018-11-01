@@ -16,9 +16,12 @@ sudo npm config set registry https://registry.npm.taobao.org
 sudo npm install n -g
 sudo n stable
 
+# [可选] 设置 npm registry 为 taobao 镜像，加快下载速度
+sudo npm config set registry https://registry.npm.taobao.org
+
 # 安装 @vue/cli
 sudo npm install @vue/cli -g
 
 # [可选] 安装 npm registry 管理工具 nrm
-sudo npm install nrm
+sudo npm install nrm -g
 nrm ls
